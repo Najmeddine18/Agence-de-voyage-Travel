@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL AGENCY</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Noto+Sans+JP:wght@300;400&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Noto+Sans+JP:wght@300;400&family=Roboto:ital,wght@0,300;0,500;1,400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Acceuil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#hotels">Hôtels</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#inscription">Inscription</a>
+              </li>
+           
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="voyages" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Billets
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Avions </a></li>
+                  <li><a class="dropdown-item" href="#">Bateau</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#gallerie">Gallerie</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="acceuil">
+        <div class="content">
+            <h4>Bienvenue Dans Le Monde</h4>
+            <h1>Visiter! Profiter! Amuser!</h1>
+            <span class="changecontent"></span><br>
+            <a href="#inscription">Lieu De Réservation</a>
+        </div>
+      </div>
+    <section class="hotels" id="hotels">
+      <div class="container">
+        <h1>NOS OFFRES POUR LES HOTELS</h1>
+        <div class="row">
+          <div class="col-4">
+            <div class="card" style="width: 18rem;">
+              <img src="hotels/hotel2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Doha</h5>
+                <p class="card-text">Promotion de 30% pour un voyage de noce...</p>
+                <a href="#" class="btn btn-primary">Voir L'offre</a>
+              </div>
+            </div>
+          </div>
+
+
+
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="hotels/hotel.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dubaî</h5>
+                  <p class="card-text">Promotion de 35% pour un voyage en groupe...</p>
+                  <a href="#" class="btn btn-primary">Voir L'offre</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="hotels/hotel3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ïle Maurice</h5>
+                  <p class="card-text">Piscine  est ouvert 24h/24h hotel 5 étoiles...</p>
+                  <a href="#" class="btn btn-primary">Voir L'offre</a>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="hotels/hotel1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Maroc</h5>
+                  <p class="card-text">Hébergement Et Petit Déjeuner Buffet...</p>
+                  <a href="#" class="btn btn-primary">Voir L'offre</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="hotels/hotel4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Italie</h5>
+                  <p class="card-text"> Demi-Pension - Formule Plus Buffet...</p>
+                  <a href="#" class="btn btn-primary">Voir L'offre</a>
+                </div>
+              </div>
+            </div>
+
+        
+
+
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="hotels/hotel6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Paris</h5>
+                  <p class="card-text">Logement Petit Déjeuner , Demi Pension Plus ...</p>
+                  <a href="#" class="btn btn-primary">Voir L'offre</a>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="hotels/hotel7.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tunisie</h5>
+                  <p class="card-text">Hôtel 3 étoiles, avec 2 piscines extérieures...</p>
+                  <a href="#" class="btn btn-primary">Voir L'offre</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="hotels/hotel8.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Espagne</h5>
+                  <p class="card-text">L'ensemble des hôtels offrent des promotions pour le réveillon...</p>
+                  <a href="#" class="btn btn-primary">Voir L'offre</a>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="hotels/hotel9.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Egypte</h5>
+                  <p class="card-text"> Des piscines couvertes avec des piscines couvertes...</p>
+                  <a href="#" class="btn btn-primary">Voir L'offre</a>
+                </div>
+              </div>
+            </div>
+
+            
+        </div>
+     </div>
+    </section>
+
+
+
+
+
+
+
+
+      <section class="inscription" id="inscription">
+        <div class="container">
+          <div class="main_text">
+            <h1><span>I</span>nscription</h1>
+          </div>
+          <div class="row">
+            <form action="#">
+              <div class="row g-3">
+                <div class="col">
+                  <label for="inputEmail4" class="form-label">Nom</label>
+                  <input type="text" class="form-control" placeholder="Nom" aria-label="First name">
+                </div>
+                <div class="col">
+                  <label for="inputEmail4" class="form-label">Prénom</label>
+                  <input type="text" class="form-control" placeholder="Prénom" aria-label="Last name">
+                </div>
+              </div>
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label" placeholder="Email">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Mot De Passe</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Adresse</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="N°Maison,N°Rue,Quartier">
+                </div>
+              
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Ville</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Code Postal</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">Gouvernorat</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Tunis</option>
+                    <option>Ben Arous</option>
+                    <option>Ariana</option>
+                    <option>Manouba</option>
+                    <option>Bizerte</option>
+                    <option>Nabeul</option>
+                    <option>Zaghouan</option>
+                    <option>Sousse</option>
+                    <option>Mahdia</option>
+                    <option>Monastir</option>
+                    <option>Siliana</option>
+                    <option>Beja</option>
+                    <option>Kef</option>
+                    <option>Jendouba</option>
+                    <option>Kairaouen</option>
+                    <option>Kasserine</option>
+                    <option>Sidi Bouzid</option>
+                    <option>Sfax</option>
+                    <option>Gabes</option>
+                    <option>Kebili</option>
+                    <option>Tozeur</option>
+                    <option>Gafsa</option>
+                    <option>Médnine</option>
+                    <option>Tataouine</option>
+                  </select>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Homme</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Femme</label>
+                </div>
+              
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      J'accepte les conditions 
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">S'inscrire</button>
+                </div>
+              </form>
+            </form>
+          </div>
+        </div>
+     
+      </section>
+
+
+
+      <section class="gallerie" id="gallerie">
+        <div class="container">
+
+          <div class="main-txt">
+            <h1><span>G</span>allerie</h1>
+          </div>
+          <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="gallerie/g.jpg" alt="" height="230px">
+              </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="gallerie/g1.jpg" alt="" height="230px">
+              </div>
+            </div>
+            
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="gallerie/g2.jpg" alt="" height="230px">
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="gallerie/g3.jpg" alt="" height="230px">
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="gallerie/g4.webp" alt="" height="230px">
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="gallerie/g5.jpg" alt="" height="230px">
+              </div>
+            </div>
+
+         </div>
+
+          </div>
+
+        </div>
+    
+      </section>
+      <footer id="contact">
+        <h1><span>T</span>ravel</h1>
+        <p>Vous pouvez nous contactez sur nos pages :</p>
+        <div class="social-links">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+      
+      </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

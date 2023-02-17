@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Caveat', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.navbar-expand-lg{
+    background-image: url(island1.jpg);
+    background-size: cover;
+}
+#logo{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0px 0px 1px black;
+    margin-bottom: 5px;
+}
+#logo span{
+    color: orangered;
+}
+.navbar-toggler span{
+    color: orangered;
+}
+.navbar-nav{
+    margin-left: 25px;
+}
+.nav-item .nav-link{
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    background: orangered;
+    color: azure;
+}
+.navbar form button{
+    background: orangered;
+    color: azure;
+    border: none;
+
+}
+.navbar form button:hover{
+    background: gold;
+}
+.acceuil{
+    width: 100%;
+    height: 100vh;
+    background-image: url(acceuil1.jpg);
+    background-size: cover;
+}
+.acceuil .content{
+    text-align: center;
+    padding-top: 200px;
+}
+.acceuil .content h4{
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    text-shadow:  1px black;
+}
+.acceuil .content h1{
+color: rgb(253, 79, 16);
+font-size: 60px;
+font-weight: bold;
+text-shadow: 5px black;
+margin-top: 5px;
+}
+.changecontent::after{
+    content: ' ';
+    color: black;
+    font-size: 40px;
+    text-shadow: 0px 0px 2px black;
+    animation: changetxt 5s infinite linear;
+    font-weight: bolder;
+}
+@keyframes changetxt{
+    0%{ content : "France";}
+    20%{ content : "États-Unis";}
+    40%{ content : "Royaume-Uni";}
+    60%{ content : "Italie";}
+    80%{ content : "Maroc";}
+    100%{ content : "Suisse";}
+}
+.acceuil .content a{
+    padding: 10px;
+    color: black;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    text-decoration: none;
+    transition: 0.5s;
+    padding-top: 5px;
+    background: white;
+    border-radius: 5px;
+}
+.acceuil .content a:hover{
+    background: gold;
+    color: whitesmoke;
+}
+.inscription{
+    padding: 50px;
+    margin: 5px;
+    background-image: url(island4.jpg);
+    background-size: cover;
+}
+.inscription form{
+    margin: 10px;
+}
+.main_text h1{
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: bold;
+    font-size: 60px;
+    color: azure;
+}
+.main_text span{
+    color: orangered;
+}
+.inscription .row{
+    margin-top: 30px;
+}
+.inscription form input{
+    font-size: 20px;
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px black;
+}
+.inscription form label{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: bold;
+}
+.inscription form button{
+    background: white;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 160px;
+
+}
+.inscription form button:hover{
+    background: gold;
+    color: black;
+}
+.inscription form .col-12{
+    margin-top: 10px;
+}
+.inscription form .form-check-input{
+    color: black;
+}
+.inscription form .form-check{
+    margin-top: 10px;
+}
+.hotels{
+  background-image: url(mer1.jpg);
+  background-size: cover;
+}
+.hotels .container .card{
+    margin: 25px;
+    width: 90%;
+}
+.hotels .container h1{
+    text-align: center;
+    padding-top: 6px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: rgb(0, 0, 0, 0.1) 0px 4px 12px ;
+    font-weight: bolder;
+}
+.gallerie{
+    
+    background-image: url(island2.webp);
+    background-size: cover;
+}
+.gallerie .container .card{
+    margin: 10px;
+}
+.gallerie h1{
+
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 0px 0px 4px 12px;
+    font-weight: bold;
+}
+.gallerie h1 span{
+    color: orangered;
+    font-weight: bold;
+
+}
+
+.gallerie .card{
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+.gallerie .card img{
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.gallerie .card img:hover{
+    transform: scale(1.1);
+}
+#contact{
+    text-align: center;
+    width: 100%;
+    background-image: url(island1.jpg);
+    background-size: cover;
+}
+#contact h1{
+    font-weight: bold;
+    padding-top: 40px;
+    font-size: 60px;
+    color: bisque;
+    
+}
+#contact h1 span{
+    color: orangered;
+}
+#contact p{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.social-links i{
+    padding-top: 10px;
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: whitesmoke;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.social-links i:hover{
+    background: orangered;
+}
